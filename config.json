@@ -32,12 +32,12 @@
      "users": [
       {
        "alterId": 100, 
-       "security": "None", 
-       "id": "03a67866-2b80-11e8-8d5f-00163ceb51ce"
+       "security": "aes-128-gcm", 
+       "id": "ee98920a-2c4d-11e8-95d3-4a7675bc51a6"
       }
      ], 
-     "port": 1234, 
-     "address": "64.32.5.183"
+     "port": 4567, 
+     "address": "45.55.49.42"
     }
    ]
   }
