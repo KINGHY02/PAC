@@ -8,7 +8,7 @@
     "readBufferSize": 2, 
     "mtu": 1350, 
     "header": {
-     "type": "wechat-video", 
+     "type": "utp", 
      "request": null, 
      "response": null
     }, 
@@ -37,7 +37,7 @@
       }
      ], 
      "port": 4456, 
-     "address": "173.208.133.2"
+     "address": "173.208.133.3"
     }
    ]
   }
