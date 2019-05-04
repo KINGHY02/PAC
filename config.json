@@ -1,21 +1,8 @@
 {
  "outbound": {
   "streamSettings": {
-   "network": "kcp", 
-   "kcpSettings": {
-    "uplinkCapacity": 100, 
-    "downlinkCapacity": 100, 
-    "readBufferSize": 2, 
-    "mtu": 1350, 
-    "header": {
-     "type": "utp", 
-     "request": null, 
-     "response": null
-    }, 
-    "tti": 50, 
-    "congestion": false, 
-    "writeBufferSize": 2
-   }, 
+   "network": "tcp", 
+   "kcpSettings": null, 
    "wsSettings": null, 
    "tcpSettings": null, 
    "tlsSettings": {}, 
