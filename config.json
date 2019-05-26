@@ -1,25 +1,18 @@
 {
  "outbound": {
   "streamSettings": {
-   "network": "kcp", 
-   "kcpSettings": {
-    "uplinkCapacity": 100, 
-    "downlinkCapacity": 100, 
-    "readBufferSize": 2, 
-    "mtu": 1350, 
-    "header": {
-     "type": "none", 
-     "request": null, 
-     "response": null
+   "network": "ws", 
+   "kcpSettings": null, 
+   "wsSettings": {
+    "headers": {
+     "host": "free8888.ml"
     }, 
-    "tti": 50, 
-    "congestion": false, 
-    "writeBufferSize": 2
+    "connectionReuse": true, 
+    "path": ""
    }, 
-   "wsSettings": null, 
    "tcpSettings": null, 
    "tlsSettings": {}, 
-   "security": ""
+   "security": "tls"
   }, 
   "tag": "agentout", 
   "protocol": "vmess", 
@@ -33,11 +26,11 @@
       {
        "alterId": 100, 
        "security": "aes-128-cfb", 
-       "id": "53f00fcb-9a7c-432d-99c8-5048c13f9c19"
+       "id": "28c36018-7e9b-11e9-afa6-003048d547a4"
       }
      ], 
-     "port": 34567, 
-     "address": "64.32.6.173"
+     "port": 23456, 
+     "address": "free8888.ml"
     }
    ]
   }
