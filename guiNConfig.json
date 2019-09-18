@@ -13,18 +13,18 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "38.100.229.82",
+      "address": "www.free9999.org",
       "port": 12348,
       "id": "616cb250-cad3-11e9-b8e8-00219ba209ff",
       "alterId": 233,
       "security": "aes-128-gcm",
-      "network": "kcp",
+      "network": "ws",
       "remarks": "freedom",
       "headerType": "none",
       "requestHost": "",
       "path": "/",
-      "streamSecurity": "",
-      "allowInsecure": "",
+      "streamSecurity": "tls",
+      "allowInsecure": "true",
       "configType": 1,
       "testResult": "",
       "subid": ""
