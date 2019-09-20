@@ -3,8 +3,8 @@
     {
       "localPort": 10808,
       "protocol": "socks",
-      "udpEnabled": true,
-      "sniffingEnabled": true
+      "udpEnabled": false,
+      "sniffingEnabled": false
     }
   ],
   "logEnabled": false,
@@ -14,17 +14,35 @@
     {
       "configVersion": 2,
       "address": "www.free9999.org",
-      "port": 12348,
-      "id": "616cb250-cad3-11e9-b8e8-00219ba209ff",
-      "alterId": 233,
+      "port": 1234,
+      "id": "482831f3-e615-445e-adad-e289951a1fb1",
+      "alterId": 100,
       "security": "aes-128-gcm",
       "network": "ws",
       "remarks": "freedom",
       "headerType": "none",
       "requestHost": "",
+      "path": "",
+      "streamSecurity": "tls",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "www.free6666.com",
+      "port": 443,
+      "id": "1096d8cb-bbca-4358-a7e6-a6523671ad8f",
+      "alterId": 233,
+      "security": "auto",
+      "network": "h2",
+      "remarks": "233v2.com_www.free6666.com",
+      "headerType": "none",
+      "requestHost": "www.free6666.com",
       "path": "/",
       "streamSecurity": "tls",
-      "allowInsecure": "true",
+      "allowInsecure": "",
       "configType": 1,
       "testResult": "",
       "subid": ""
