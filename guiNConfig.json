@@ -28,24 +28,6 @@
       "configType": 1,
       "testResult": "",
       "subid": ""
-    },
-    {
-      "configVersion": 2,
-      "address": "www.free6666.com",
-      "port": 443,
-      "id": "1096d8cb-bbca-4358-a7e6-a6523671ad8f",
-      "alterId": 233,
-      "security": "auto",
-      "network": "h2",
-      "remarks": "233v2.com_www.free6666.com",
-      "headerType": "none",
-      "requestHost": "www.free6666.com",
-      "path": "/",
-      "streamSecurity": "tls",
-      "allowInsecure": "",
-      "configType": 1,
-      "testResult": "",
-      "subid": ""
     }
   ],
   "muxEnabled": true,
