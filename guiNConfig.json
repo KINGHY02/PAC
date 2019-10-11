@@ -9,7 +9,7 @@
   ],
   "logEnabled": false,
   "loglevel": "warning",
-  "index": 3,
+  "index": 0,
   "vmess": [
     {
       "configVersion": 2,
@@ -19,7 +19,7 @@
       "alterId": 64,
       "security": "aes-128-gcm",
       "network": "tcp",
-      "remarks": "",
+      "remarks": "free",
       "headerType": "none",
       "requestHost": "",
       "path": "",
