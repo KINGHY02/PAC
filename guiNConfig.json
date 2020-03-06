@@ -14,7 +14,7 @@
     {
       "configVersion": 2,
       "address": "tr1.free9999.net",
-      "port": 1234,
+      "port": 45678,
       "id": "a2d83225-d8b6-4ad9-bf3a-bda17f800d5e",
       "alterId": 8,
       "security": "auto",
