@@ -32,11 +32,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.free6666.net",
+            "address": "tr3.free6666.net",
             "port": 443,
             "users": [
               {
-                "id": "23410574-3629-40ef-b5eb-7003cec6275b",
+                "id": "4d0e5248-015c-494e-92e5-38cb6be611e7",
                 "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -52,15 +52,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "www.free6666.net"
+          "serverName": "tr3.free6666.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/46aefa2e/",
+          "path": "/df40c300/",
           "headers": {
-            "Host": "www.free6666.net"
+            "Host": "tr3.free6666.net"
           }
         },
         "httpSettings": null,
