@@ -1,4 +1,5 @@
 {
+  "policy": null,
   "log": {
     "access": "",
     "error": "",
@@ -6,6 +7,7 @@
   },
   "inbounds": [
     {
+      "tag": "proxy",
       "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
@@ -20,6 +22,7 @@
         "auth": "noauth",
         "udp": false,
         "ip": null,
+        "address": null,
         "clients": null
       },
       "streamSettings": null
@@ -32,11 +35,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr8.free6666.net",
+            "address": "tr3.free9999.net",
             "port": 443,
             "users": [
               {
-                "id": "c94b0262-a272-4e0c-bfd7-292e7f327943",
+                "id": "c1c166ec-bc46-4843-9207-e5e3935864b8",
                 "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -52,22 +55,23 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "tr8.free6666.net"
+          "serverName": "tr3.free9999.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/c3e707df/",
+          "path": "/07262bc3/",
           "headers": {
-            "Host": "tr8.free6666.net"
+            "Host": "tr3.free9999.net"
           }
         },
         "httpSettings": null,
         "quicSettings": null
       },
       "mux": {
-        "enabled": true
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
@@ -95,10 +99,22 @@
       "mux": null
     }
   ],
+  "stats": null,
+  "api": null,
   "dns": null,
   "routing": {
     "domainStrategy": "IPIfNonMatch",
-    "rules": []
+    "rules": [
+      {
+        "type": "field",
+        "port": null,
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "ip": null,
+        "domain": null
+      }
+    ]
   }
 }
-
