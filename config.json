@@ -35,14 +35,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.145.156",
-            "port": 12345,
+            "address": "c.kitsunebi.fun",
+            "port": 443,
             "users": [
               {
-                "id": "f43af1e8-7386-4709-bdf6-55db215a1ab7",
-                "alterId": 2,
+                "id": "95137857-70fa-4ac8-8f90-4220aeb662cf",
+                "alterId": 0,
                 "email": "t@t.tt",
-                "security": "none"
+                "security": "auto"
               }
             ]
           }
@@ -51,12 +51,19 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": null
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/v2",
+          "headers": null
+        },
         "httpSettings": null,
         "quicSettings": null
       },
