@@ -1,7 +1,7 @@
 {
   "inbound": [
     {
-      "localPort": 10808,
+      "localPort": 1080,
       "protocol": "socks",
       "udpEnabled": false,
       "sniffingEnabled": false
