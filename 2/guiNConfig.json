@@ -13,17 +13,17 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "v2.coding996.com",
-      "port": 443,
-      "id": "db18c581-dd79-43fe-a653-d84f1490a649",
-      "alterId": 64,
+      "address": "89.163.224.93",
+      "port": 37356,
+      "id": "1b3e04a6-7cbf-413a-a4fc-1f1e44b78f77",
+      "alterId": 16,
       "security": "auto",
       "network": "ws",
-      "remarks": "v2-coding996",
+      "remarks": "https://git.io/v9999",
       "headerType": "none",
       "requestHost": "",
-      "path": "/v2ray",
-      "streamSecurity": "tls",
+      "path": "",
+      "streamSecurity": "none",
       "allowInsecure": "",
       "configType": 1,
       "testResult": "",
@@ -61,3 +61,4 @@
   },
   "userPacRule": []
 }
+
