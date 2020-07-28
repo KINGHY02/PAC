@@ -6,7 +6,7 @@
   },
   "inbounds": [
     {
-      "port": 10808,
+      "port": 1080,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -32,12 +32,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2.coding996.com",
-            "port": 443,
+            "address": "45.147.201.190",
+            "port": 38523,
             "users": [
               {
-                "id": "db18c581-dd79-43fe-a653-d84f1490a649",
-                "alterId": 64,
+                "id": "6f4967cf-f684-448a-9526-fa4bbbff7252",
+                "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto"
               }
@@ -49,7 +49,7 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
+        "security": "",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": null
@@ -58,7 +58,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v2ray",
+          "path": null,
           "headers": null
         },
         "httpSettings": null,
