@@ -6,7 +6,7 @@
   },
   "inbounds": [
     {
-      "port": 10808,
+      "port": 1080,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -32,12 +32,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.129.2.169",
-            "port": 22225,
+            "address": "tr13.free9999.net",
+            "port": 443,
             "users": [
               {
-                "id": "c086c8d7-f5ae-4120-8efc-94432ce0868b",
-                "alterId": 16,
+                "id": "a800ae63-7e83-4f29-9689-5df65de01d1e",
+                "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto"
               }
@@ -49,17 +49,19 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": null
+          "serverName": "tr13.free9999.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": null,
-          "headers": null
+          "path": "/8116d3258b/",
+          "headers": {
+            "Host": "tr13.free9999.net"
+          }
         },
         "httpSettings": null,
         "quicSettings": null
