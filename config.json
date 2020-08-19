@@ -1,4 +1,5 @@
 {
+  "policy": null,
   "log": {
     "access": "",
     "error": "",
@@ -6,6 +7,7 @@
   },
   "inbounds": [
     {
+      "tag": "proxy",
       "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
@@ -20,7 +22,9 @@
         "auth": "noauth",
         "udp": false,
         "ip": null,
-        "clients": null
+        "address": null,
+        "clients": null,
+        "decryption": null
       },
       "streamSettings": null
     }
@@ -32,14 +36,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr13.free9999.net",
-            "port": 443,
+            "address": "89.163.224.127",
+            "port": 47702,
             "users": [
               {
-                "id": "a800ae63-7e83-4f29-9689-5df65de01d1e",
-                "alterId": 2,
+                "id": "e297890e-7add-4211-b051-d698fc50a49c",
+                "alterId": 16,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": null
               }
             ]
           }
@@ -49,25 +54,21 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tr13.free9999.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/8116d3258b/",
-          "headers": {
-            "Host": "tr13.free9999.net"
-          }
+          "path": null,
+          "headers": null
         },
         "httpSettings": null,
         "quicSettings": null
       },
       "mux": {
-        "enabled": true
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
@@ -95,9 +96,22 @@
       "mux": null
     }
   ],
+  "stats": null,
+  "api": null,
   "dns": null,
   "routing": {
     "domainStrategy": "IPIfNonMatch",
-    "rules": []
+    "rules": [
+      {
+        "type": "field",
+        "port": null,
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "ip": null,
+        "domain": null
+      }
+    ]
   }
 }
