@@ -14,7 +14,7 @@
     {
       "configVersion": 2,
       "address": "tr22.free2222.xyz",
-      "port": 443,
+      "port": 12345,
       "id": "30608a60-defa-4e34-b41f-3394f16e6d46",
       "alterId": 2,
       "security": "auto",
