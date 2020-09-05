@@ -14,9 +14,9 @@
     {
       "configVersion": 2,
       "address": "195.123.241.117",
-      "port": 38430,
-      "id": "0832090f-41d9-40c4-b42f-0b4e65df33f7",
-      "alterId": 233,
+      "port": 45617,
+      "id": "5821a0a0-ef78-11ea-b9a9-52ac006718a2",
+      "alterId": 16,
       "security": "auto",
       "network": "tcp",
       "remarks": "https://git.io/v9999 洛杉矶",
