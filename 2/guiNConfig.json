@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "64.32.6.246",
-      "port": 8824,
-      "id": "26040dd6-ef8e-11ea-9e5e-00163c81a6c4",
-      "alterId": 16,
+      "address": "v1hk001.recare.xyz",
+      "port": 18101,
+      "id": "014b987d-fca9-3938-b4fb-22a22e3eeee8",
+      "alterId": 2,
       "security": "auto",
       "network": "tcp",
-      "remarks": "https://git.io/v9999 洛杉矶",
+      "remarks": "https://git.io/v9999 台湾",
       "headerType": "none",
       "requestHost": "",
       "path": "",
