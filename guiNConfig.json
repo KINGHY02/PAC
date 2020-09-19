@@ -13,21 +13,21 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "v1hk002.recare.xyz",
-      "port": 18102,
-      "id": "014b987d-fca9-3938-b4fb-22a22e3eeee8",
-      "alterId": 2,
+      "address": "104.19.59.164",
+      "port": 443,
+      "id": "ad806487-2d26-4636-98b6-ab85cc8521f7",
+      "alterId": 64,
       "security": "auto",
-      "network": "tcp",
-      "remarks": "https://git.io/v9999 台湾",
+      "network": "ws",
+      "remarks": "https://git.io/v9999 美国CDN",
       "headerType": "none",
-      "requestHost": "",
+      "requestHost": "shy-fire-1c59.kinh.workers.dev",
       "path": "",
-      "streamSecurity": "",
+      "streamSecurity": "tls",
       "allowInsecure": "false",
       "configType": 1,
       "testResult": "",
-      "subid": ""
+      "subid": """
     }
   ],
   "muxEnabled": true,
