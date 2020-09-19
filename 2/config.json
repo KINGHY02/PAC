@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "64.32.6.246",
-            "port": 8824,
+            "address": "v1hk001.recare.xyz",
+            "port": 18101,
             "users": [
               {
-                "id": "26040dd6-ef8e-11ea-9e5e-00163c81a6c4",
-                "alterId": 16,
+                "id": "014b987d-fca9-3938-b4fb-22a22e3eeee8",
+                "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
