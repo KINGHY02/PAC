@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.104.82",
+            "address": "104.19.103.161",
             "port": 443,
             "users": [
               {
-                "id": "5ed9c201-0bec-4bea-8989-c111b90cc0b3",
-                "alterId": 2,
+                "id": "1eac47fe-3a85-4e07-9a43-0a8dd65eb7e4",
+                "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -57,15 +57,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "summer-tree-5dd6.kebi2014.workers.dev"
+          "serverName": "old-river-a2f2.kebi2014.workers.dev"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cbb5178684d/",
+          "path": "/ray",
           "headers": {
-            "Host": "summer-tree-5dd6.kebi2014.workers.dev"
+            "Host": "old-river-a2f2.kebi2014.workers.dev"
           }
         },
         "httpSettings": null,
