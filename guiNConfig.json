@@ -13,7 +13,7 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.19.103.161",
+      "address": "104.19.19.16",
       "port": 443,
       "id": "1eac47fe-3a85-4e07-9a43-0a8dd65eb7e4",
       "alterId": 16,
