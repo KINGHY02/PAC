@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr37.free99999.com",
+            "address": "104.19.59.164",
             "port": 443,
             "users": [
               {
@@ -57,7 +57,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tr37.free99999.com"
+          "serverName": "mute-sound-d2c6.kebi2014.workers.dev"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -65,7 +65,7 @@
           "connectionReuse": true,
           "path": "/384c6b6/",
           "headers": {
-            "Host": "tr37.free99999.com"
+            "Host": "mute-sound-d2c6.kebi2014.workers.dev"
           }
         },
         "httpSettings": null,
