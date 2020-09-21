@@ -13,15 +13,15 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.19.59.164",
+      "address": "tr37.free99999.com",
       "port": 443,
       "id": "77d3b204-f581-44fc-8db0-0d5f95ad56f4",
       "alterId": 2,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://git.io/v9999 洛杉矶CDN",
+      "remarks": "https://git.io/v9999 洛杉矶",
       "headerType": "none",
-      "requestHost": "mute-sound-d2c6.kebi2014.workers.dev",
+      "requestHost": "tr37.free99999.com",
       "path": "/384c6b6/",
       "streamSecurity": "tls",
       "allowInsecure": "false",
