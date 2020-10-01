@@ -37,7 +37,7 @@
         "vnext": [
           {
             "address": "89.163.224.142",
-            "port": 30509,
+            "port": 14000,
             "users": [
               {
                 "id": "cfcc9442-ff91-11ea-b56f-9cb6549788d8",
@@ -53,11 +53,24 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "kcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
-        "kcpSettings": null,
+        "kcpSettings": {
+          "mtu": 1350,
+          "tti": 50,
+          "uplinkCapacity": 12,
+          "downlinkCapacity": 100,
+          "congestion": false,
+          "readBufferSize": 2,
+          "writeBufferSize": 2,
+          "header": {
+            "type": "wireguard",
+            "request": null,
+            "response": null
+          }
+        },
         "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null
