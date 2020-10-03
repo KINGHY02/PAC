@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.104.82",
+            "address": "104.233.153.84",
             "port": 443,
             "users": [
               {
-                "id": "60de6fa1-0bad-4648-b741-8c3a112d3d12",
-                "alterId": 2,
+                "id": "daf5baf2-57bd-436e-a750-df73ff09c2de",
+                "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -57,15 +57,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dongtaiwang.kebi2014.workers.dev"
+          "serverName": "tr4.free4444.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/2099/",
+          "path": "/ray",
           "headers": {
-            "Host": "dongtaiwang.kebi2014.workers.dev"
+            "Host": "tr4.free4444.xyz"
           }
         },
         "httpSettings": null,
