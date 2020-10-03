@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.163.224.142",
-            "port": 14000,
+            "address": "104.19.104.82",
+            "port": 443,
             "users": [
               {
-                "id": "cfcc9442-ff91-11ea-b56f-9cb6549788d8",
-                "alterId": 16,
+                "id": "60de6fa1-0bad-4648-b741-8c3a112d3d12",
+                "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -53,25 +53,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "kcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dongtaiwang.kebi2014.workers.dev"
+        },
         "tcpSettings": null,
-        "kcpSettings": {
-          "mtu": 1350,
-          "tti": 50,
-          "uplinkCapacity": 12,
-          "downlinkCapacity": 100,
-          "congestion": false,
-          "readBufferSize": 2,
-          "writeBufferSize": 2,
-          "header": {
-            "type": "wireguard",
-            "request": null,
-            "response": null
+        "kcpSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/2099/",
+          "headers": {
+            "Host": "dongtaiwang.kebi2014.workers.dev"
           }
         },
-        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null
       },
