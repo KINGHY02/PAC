@@ -13,22 +13,21 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.233.153.84",
-      "port": 443,
-      "id": "daf5baf2-57bd-436e-a750-df73ff09c2de",
-      "alterId": 16,
+      "address": "107.148.240.161",
+      "port": 49751,
+      "id": "64462429-3797-436b-91c3-5abe0d4ffba8",
+      "alterId": 0,
       "security": "auto",
-      "network": "ws",
+      "network": "tcp",
       "remarks": "https://git.io/v9999 加利福尼亚",
       "headerType": "none",
-      "requestHost": "tr4.free4444.xyz",
-      "path": "/ray",
-      "streamSecurity": "tls",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
       "allowInsecure": "false",
       "configType": 1,
       "testResult": "",
       "subid": ""
-
     }
   ],
   "muxEnabled": true,
