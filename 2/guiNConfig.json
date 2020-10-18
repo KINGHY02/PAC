@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "107.148.240.161",
-      "port": 49751,
-      "id": "64462429-3797-436b-91c3-5abe0d4ffba8",
+      "address": "173.0.55.66",
+      "port": 34016,
+      "id": "1b688628-2857-454a-8983-27a7b579f4dd",
       "alterId": 0,
       "security": "auto",
-      "network": "tcp",
-      "remarks": "https://git.io/v9999 加利福尼亚",
+      "network": "ws",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki 西雅图",
       "headerType": "none",
       "requestHost": "",
       "path": "",
