@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.164.34.86",
-            "port": 80,
+            "address": "tr52.free3333.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "8b31115f-7a00-4903-a0bf-6dddce7657e1",
+                "id": "cfd51b7d-45e5-48bf-a3a1-447b65918450",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -53,41 +53,19 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
-        "tcpSettings": {
-          "connectionReuse": true,
-          "header": {
-            "type": "http",
-            "request": {
-              "version": "1.1",
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "headers": {
-                "Host": [
-                  ""
-                ],
-                "User-Agent": [
-                  "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36",
-                  "Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/53.0.2785.109 Mobile/14A456 Safari/601.1.46"
-                ],
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Pragma": "no-cache"
-              }
-            },
-            "response": null
-          }
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": null
         },
+        "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ray",
+          "headers": null
+        },
         "httpSettings": null,
         "quicSettings": null
       },
