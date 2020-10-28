@@ -32,43 +32,36 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "L1-aws-hk-06.baipiao.de",
-            "port": 80,
-            "users": [
-              {
-                "id": "cfee2f03-f9f9-38ca-80da-164f4d7267f7",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": null
-              }
-            ]
+            "email": null,
+            "address": "185.195.79.3",
+            "method": "aes-256-gcm",
+            "ota": false,
+            "password": "yxGY7A5MczQYg6UqSFx9u78V",
+            "port": 34762,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": null
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": false,
+        "concurrency": -1
       }
     },
     {
