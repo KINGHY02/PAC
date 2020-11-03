@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "99.83.159.192",
-      "port": 80,
-      "id": "086368f3-a2bb-3cf0-b0f1-348515fa5814",
+      "address": "shanghai-cn2-nat.mugun.xyz",
+      "port": 25063,
+      "id": "d388ac06-a595-3802-a8fa-5f22aa27d4ad",
       "alterId": 2,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2美国",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2日本",
       "headerType": "none",
       "requestHost": "",
       "path": "/",
