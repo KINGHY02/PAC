@@ -36,16 +36,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr8.free5555.xyz",
+            "address": "tr5.free5555.xyz",
             "port": 443,
             "users": [
               {
-                "id": "cbcd82d1-25c6-42c4-9569-4f454a3446c7",
+                "id": "5a82e792-d5f7-409b-835b-29e0137c6664",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
-                "encryption": null,
-                "flow": null
+                "encryption": null
               }
             ]
           }
@@ -58,20 +57,19 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tr8.free5555.xyz"
+          "serverName": "tr5.free5555.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dongtaiwang.com",
+          "path": "/ray",
           "headers": {
-            "Host": "tr8.free5555.xyz"
+            "Host": "tr5.free5555.xyz"
           }
         },
         "httpSettings": null,
-        "quicSettings": null,
-        "xtlsSettings": null
+        "quicSettings": null
       },
       "mux": {
         "enabled": true,
