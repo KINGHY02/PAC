@@ -13,22 +13,21 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "tr8.free5555.xyz",
+      "address": "tr5.free5555.xyz",
       "port": 443,
-      "id": "cbcd82d1-25c6-42c4-9569-4f454a3446c7",
+      "id": "5a82e792-d5f7-409b-835b-29e0137c6664",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip4圣何塞",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶45",
       "headerType": "none",
-      "requestHost": "tr8.free5555.xyz",
-      "path": "/dongtaiwang.com",
+      "requestHost": "tr5.free5555.xyz",
+      "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
       "configType": 1,
       "testResult": "",
-      "subid": "",
-      "flow": ""
+      "subid": ""
     }
   ],
   "muxEnabled": true,
