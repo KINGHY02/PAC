@@ -13,21 +13,22 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "tr5.free5555.xyz",
+      "address": "104.19.1.199",
       "port": 443,
       "id": "5a82e792-d5f7-409b-835b-29e0137c6664",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶45",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶CDN",
       "headerType": "none",
-      "requestHost": "tr5.free5555.xyz",
+      "requestHost": "dongtaiwang.tdr55565.workers.dev",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
       "configType": 1,
       "testResult": "",
-      "subid": ""
+      "subid": "",
+      "flow": ""
     }
   ],
   "muxEnabled": true,
