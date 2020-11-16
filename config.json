@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.1.199",
+            "address": "104.19.96.10",
             "port": 443,
             "users": [
               {
-                "id": "5a82e792-d5f7-409b-835b-29e0137c6664",
+                "id": "1e898157-956a-4441-aa5e-d2874fd19eee",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -58,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dongtaiwang.tdr55565.workers.dev"
+          "serverName": "tr002.free2222.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -66,7 +66,7 @@
           "connectionReuse": true,
           "path": "/ray",
           "headers": {
-            "Host": "dongtaiwang.tdr55565.workers.dev"
+            "Host": "tr002.free2222.xyz"
           }
         },
         "httpSettings": null,
