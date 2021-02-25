@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "cloudflare.com",
+      "address": "us102.free2222.xyz",
       "port": 443,
       "id": "113ed49b-85cb-4eb7-a94e-95da956cf4bb",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip4洛杉矶",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶",
       "headerType": "none",
       "requestHost": "us102.free2222.xyz",
       "path": "/ray",
