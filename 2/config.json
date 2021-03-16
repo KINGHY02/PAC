@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.166.37.104",
-            "port": 34659,
+            "address": "adman01.free2222.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "fcd87afe-3c07-4036-8da0-6d567d999e06",
+                "id": "1564abce-bde7-435a-9ab4-97565eb17734",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -63,7 +63,17 @@
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": {}
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "adman01.free2222.xyz"
+        },
+        "wsSettings": {
+          "path": "/ray",
+          "headers": {
+            "Host": "adman01.free2222.xyz"
+          }
+        }
       },
       "mux": {
         "enabled": true,
