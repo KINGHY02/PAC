@@ -13,22 +13,23 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "us102.free2222.xyz",
-      "port": 443,
-      "id": "113ed49b-85cb-4eb7-a94e-95da956cf4bb",
+      "address": "109.166.37.104",
+      "port": 34659,
+      "id": "fcd87afe-3c07-4036-8da0-6d567d999e06",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip4日本",
       "headerType": "none",
-      "requestHost": "us102.free2222.xyz",
-      "path": "/ray",
-      "streamSecurity": "tls",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
       "allowInsecure": "false",
       "configType": 1,
       "testResult": "",
       "subid": "",
-      "flow": ""
+      "flow": "",
+      "sni": ""
     }
   ],
   "muxEnabled": true,
