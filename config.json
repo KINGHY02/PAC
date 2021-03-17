@@ -7,7 +7,7 @@
   "inbounds": [
     {
       "tag": "socks",
-      "port": 10808,
+      "port": 1080,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -44,20 +44,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "us105.free2222.xyz",
+            "address": "adman01.free2222.xyz",
             "port": 443,
             "users": [
               {
-                "id": "7247af99-95a1-49be-b6e9-096003af246c",
+                "id": "1564abce-bde7-435a-9ab4-97565eb17734",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
@@ -68,12 +66,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us105.free2222.xyz"
+          "serverName": "adman01.free2222.xyz"
         },
         "wsSettings": {
           "path": "/ray",
           "headers": {
-            "Host": "us105.free2222.xyz"
+            "Host": "adman01.free2222.xyz"
           }
         }
       },
