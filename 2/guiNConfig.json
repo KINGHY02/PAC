@@ -13,18 +13,18 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "us105.free2222.xyz",
+      "address": "adman06.free2222.xyz",
       "port": 443,
-      "id": "7247af99-95a1-49be-b6e9-096003af246c",
+      "id": "31ac9978-f4f9-cf56-9117-04554aa9606f",
       "alterId": 0,
       "security": "none",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶",
-      "headerType": "none",
-      "requestHost": "us105.free2222.xyz",
-      "path": "/ray",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki+vless莫斯科",
+      "headerType": "",
+      "requestHost": "adman06.free2222.xyz",
+      "path": "/pjklwlws",
       "streamSecurity": "tls",
-      "allowInsecure": "false",
+      "allowInsecure": "False",
       "configType": 5,
       "testResult": "",
       "subid": "",
@@ -176,6 +176,6 @@
     }
   ],
   "enableRoutingAdvanced": false,
-  "coreType": 1,
+  "coreType": 0,
   "ignoreGeoUpdateCore": false
 }
