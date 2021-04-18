@@ -13,15 +13,15 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "icook.tw",
+      "address": "104.18.64.100",
       "port": 443,
-      "id": "30ef8309-0b1b-4791-a159-425e5ebf10dc",
+      "id": "77c6cb51-7fe8-4218-8437-8b89d5ed57e0",
       "alterId": 0,
       "security": "none",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip4莫斯科",
       "headerType": "none",
-      "requestHost": "us108.free2222.xyz",
+      "requestHost": "adman07.free2222.xyz",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
@@ -33,11 +33,6 @@
     }
   ],
   "muxEnabled": true,
-  "domainStrategy": "IPIfNonMatch",
-  "routingMode": "0",
-  "useragent": [],
-  "userdirect": [],
-  "userblock": [],
   "kcpItem": {
     "mtu": 1350,
     "tti": 50,
@@ -47,19 +42,140 @@
     "readBufferSize": 2,
     "writeBufferSize": 2
   },
-  "listenerType": 0,
+  "sysProxyType": 0,
   "speedTestUrl": "http://speedtest-sgp1.digitalocean.com/10mb.test",
   "speedPingTestUrl": "https://www.google.com/generate_204",
-  "urlGFWList": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
   "allowLANConn": false,
   "enableStatistics": false,
   "keepOlderDedupl": false,
-  "statisticsFreshRate": 0,
+  "statisticsFreshRate": 1000,
   "remoteDNS": "",
-  "defaultAllowInsecure": "false",
+  "defAllowInsecure": false,
   "subItem": [],
   "uiItem": {
-    "mainQRCodeWidth": 600
+    "mainSize": "160, 28",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 80,
+      "remarks": 100,
+      "address": 120,
+      "port": 50,
+      "security": 90,
+      "network": 70,
+      "subRemarks": 50,
+      "testResult": 70
+    }
   },
-  "userPacRule": []
+  "domainStrategy": "IPIfNonMatch",
+  "routingIndex": 0,
+  "routings": [
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null
+        }
+      ],
+      "enabled": true,
+      "locked": false
+    },
+    {
+      "remarks": "locked",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null
+        }
+      ],
+      "enabled": true,
+      "locked": true
+    }
+  ],
+  "enableRoutingAdvanced": false,
+  "coreType": 0,
+  "ignoreGeoUpdateCore": false
 }
