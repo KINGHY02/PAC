@@ -18,7 +18,7 @@
     },
 
     "client_settings": {
-        "server": "icook.tw",
+        "server": "104.19.64.80",
         "server_port": 443,
         "listen_address": "0.0.0.0",
         "listen_port": 1080
