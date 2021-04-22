@@ -13,7 +13,7 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "www.fitbit.com",
+      "address": "104.19.32.19",
       "port": 443,
       "id": "77c6cb51-7fe8-4218-8437-8b89d5ed57e0",
       "alterId": 0,
