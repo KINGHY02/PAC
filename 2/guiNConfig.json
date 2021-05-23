@@ -12,16 +12,17 @@
   "index": 0,
   "vmess": [
     {
+
       "configVersion": 2,
-      "address": "104.19.32.19",
+      "address": "us001.free3333.xyz",
       "port": 443,
-      "id": "77c6cb51-7fe8-4218-8437-8b89d5ed57e0",
+      "id": "8d0fbe63-b1bd-492c-becc-c5968aa3ea48",
       "alterId": 0,
       "security": "none",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip4莫斯科",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶",
       "headerType": "none",
-      "requestHost": "adman07.free2222.xyz",
+      "requestHost": "us001.free3333.xyz",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
