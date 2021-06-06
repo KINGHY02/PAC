@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us001.free3333.xyz",
+            "address": "1.1.1.0",
             "port": 443,
             "users": [
               {
-                "id": "8d0fbe63-b1bd-492c-becc-c5968aa3ea48",
+                "id": "b4bdd8ae-c965-45a3-afa7-3302b342b470",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -68,12 +68,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us001.free3333.xyz"
+          "serverName": "us003.free3333.xyz"
         },
         "wsSettings": {
           "path": "/ray",
           "headers": {
-            "Host": "us001.free3333.xyz"
+            "Host": "us003.free3333.xyz"
           }
         }
       },
