@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.32.19",
+            "address": "adman11.free3333.xyz",
             "port": 443,
             "users": [
               {
-                "id": "a6fec3eb-2589-4829-8f7d-5608096e3d2b",
+                "id": "55429d44-f39d-4853-b32a-c65460bc7cad",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -68,12 +68,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "adman09.free3333.xyz"
+          "serverName": "adman11.free3333.xyz"
         },
         "wsSettings": {
           "path": "/ray",
           "headers": {
-            "Host": "adman09.free3333.xyz"
+            "Host": "adman11.free3333.xyz"
           }
         }
       },
