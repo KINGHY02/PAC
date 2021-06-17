@@ -25,7 +25,7 @@
     },
     {
       "tag": "http",
-      "port": 1081,
+      "port": 10809,
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
@@ -48,7 +48,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "1.1.1.0",
+            "address": "us003.free3333.xyz",
             "port": 443,
             "users": [
               {
