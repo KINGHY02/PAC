@@ -25,7 +25,7 @@
     },
     {
       "tag": "http",
-      "port": 10809,
+      "port": 1081,
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
@@ -44,38 +44,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "us003.free3333.xyz",
-            "port": 443,
+            "address": "91.206.92.27",
+            "port": 40822,
             "users": [
               {
-                "id": "b4bdd8ae-c965-45a3-afa7-3302b342b470",
+                "id": "2f02f3a6-984a-418c-86bd-604850026717",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us003.free3333.xyz"
-        },
-        "wsSettings": {
-          "path": "/ray",
-          "headers": {
-            "Host": "us003.free3333.xyz"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
