@@ -44,38 +44,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "www.digitalocean.com",
-            "port": 443,
+            "address": "176.32.35.155",
+            "port": 57352,
             "users": [
               {
-                "id": "55429d44-f39d-4853-b32a-c65460bc7cad",
+                "id": "34969aab-4c51-4c5f-9998-30de86916c24",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "adman11.free3333.xyz"
-        },
-        "wsSettings": {
-          "path": "/ray",
-          "headers": {
-            "Host": "adman11.free3333.xyz"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
