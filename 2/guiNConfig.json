@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "194.87.106.121",
-      "port": 32068,
-      "id": "8213e28a-1040-11ec-8ce5-e253c8e492bb",
+      "address": "91.206.92.27",
+      "port": 43680,
+      "id": "4d7f9007-c908-4289-87ec-8da932d4e181",
       "alterId": 0,
       "security": "auto",
       "network": "tcp",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki 莫斯科ip4",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki 莫斯科admanip4",
       "headerType": "none",
       "requestHost": "",
       "path": "",
