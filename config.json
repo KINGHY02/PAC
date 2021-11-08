@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.4.105.108",
-            "port": 34755,
+            "address": "142.4.105.120",
+            "port": 29762,
             "users": [
               {
-                "id": "12eab1a4-3bba-11ec-929d-00259056b53c",
+                "id": "66ba7cfb-538c-4df7-9c4b-64af3e1ab1d7",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
