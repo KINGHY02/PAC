@@ -49,10 +49,10 @@
         "vnext": [
           {
             "address": "142.4.105.124",
-            "port": 9295,
+            "port": 44847,
             "users": [
               {
-                "id": "8dffdea4-402a-11ec-ac81-002590760342",
+                "id": "c9668c5e-45ac-11ec-92eb-002590760342",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -62,7 +62,10 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "ws",
+        "wsSettings": {
+          "path": "/RcZJCboW/"
+        }
       },
       "mux": {
         "enabled": true,
