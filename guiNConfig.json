@@ -13,8 +13,8 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "45.66.159.77",
-      "port": 20088,
+      "address": "85.209.159.106",
+      "port": 12345,
       "id": "dongtaiwang.com",
       "alterId": 0,
       "security": "aes-256-gcm",
