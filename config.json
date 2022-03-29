@@ -49,10 +49,10 @@
         "servers": [
           {
             "address": "85.209.159.106",
-            "method": "aes-256-gcm",
+            "method": "chacha20-ietf-poly1305",
             "ota": false,
             "password": "dongtaiwang.com",
-            "port": 12345,
+            "port": 23456,
             "level": 1
           }
         ]
