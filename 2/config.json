@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vless4.free4444.xyz",
-            "port": 17029,
+            "address": "137.175.10.2",
+            "port": 32566,
             "users": [
               {
-                "id": "c0e53622-c377-11ec-b462-00163cbed88a",
+                "id": "581e2278-fd81-4407-97c5-bdf54e822bbe",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -64,11 +64,7 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
