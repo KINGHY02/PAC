@@ -12,15 +12,15 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "5579151956234580717",
+      "indexId": "5481486316753142109",
       "configVersion": 2,
       "address": "v2ray10.free4444.xyz",
       "port": 443,
-      "id": "27fabbab-d89d-48cc-8ca0-c19c9eb3b172",
+      "id": "f7f28ae3-2669-411a-89f8-9bb898993568",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1&ip2",
       "headerType": "none",
       "requestHost": "",
       "path": "/ray",
