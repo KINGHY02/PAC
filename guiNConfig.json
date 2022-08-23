@@ -55,7 +55,7 @@
   "defAllowInsecure": false,
   "subItem": [],
   "uiItem": {
-    "mainSize": "160, 28",
+    "mainSize": "968, 632",
     "mainLvColWidth": {
       "def": 30,
       "configType": 80,
@@ -181,3 +181,6 @@
   "coreType": 0,
   "ignoreGeoUpdateCore": false
 }
+
+
+
