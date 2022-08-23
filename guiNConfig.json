@@ -32,7 +32,6 @@
       "flow": "",
       "sni": "",
       "alpn": []
-
     }
   ],
   "muxEnabled": true,
