@@ -29,13 +29,14 @@
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
-        "enabled": true,
+        "enabled": false,
         "destOverride": [
           "http",
           "tls"
         ]
       },
       "settings": {
+        "auth": "noauth",
         "udp": false,
         "allowTransparent": false
       }
@@ -44,20 +45,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "v2ray10.free4444.xyz",
+            "address": "v2ray40.free4444.xyz",
             "port": 443,
             "users": [
               {
-                "id": "333e7c4b-8033-4cf6-be5e-00777b03ff18",
+                "id": "782ca179-1483-42b6-ae32-1a1a23d82763",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
