@@ -12,13 +12,15 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "5056077806944252032",
+      "indexId": "4814088326926539614",
+      "configType": 5,
       "configVersion": 2,
-      "address": "v2ray40.free4444.xyz",
+      "sort": 111,
+      "address": "v2ray7.v2rayfree2.xyz",
       "port": 443,
-      "id": "782ca179-1483-42b6-ae32-1a1a23d82763",
+      "id": "554a290a-9a4d-456a-adfe-03c06c7c9139",
       "alterId": 0,
-      "security": "auto",
+      "security": "none",
       "network": "ws",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip4",
       "headerType": "none",
@@ -26,12 +28,14 @@
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
-      "configType": 1,
       "testResult": "",
       "subid": "",
       "flow": "",
       "sni": "",
-      "alpn": []
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
     }
   ],
   "muxEnabled": true,
