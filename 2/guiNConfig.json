@@ -12,19 +12,19 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "4814088326926539614",
-      "configType": 5,
+       "indexId": "5084597754174551587",
+      "configType": 1,
       "configVersion": 2,
-      "sort": 111,
-      "address": "v2ray7.v2rayfree2.xyz",
+      "sort": 100,
+      "address": "172.67.167.120",
       "port": 443,
-      "id": "554a290a-9a4d-456a-adfe-03c06c7c9139",
+      "id": "f5e74e66-0241-447c-83a4-a4005f438536",
       "alterId": 0,
-      "security": "none",
+      "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip4",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki g_美国",
       "headerType": "none",
-      "requestHost": "",
+      "requestHost": "m4.v2rayfree1.xyz",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
@@ -59,7 +59,7 @@
   "defAllowInsecure": false,
   "subItem": [],
   "uiItem": {
-    "mainSize": "160, 28",
+    "mainSize": "968, 632",
     "mainLvColWidth": {
       "def": 30,
       "configType": 80,
@@ -185,3 +185,4 @@
   "coreType": 0,
   "ignoreGeoUpdateCore": false
 }
+
