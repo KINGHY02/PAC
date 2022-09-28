@@ -12,13 +12,13 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "5056077806944252032",
+      "indexId": "5754006606840542944",
       "configType": 1,
       "configVersion": 2,
       "sort": 60,
-      "address": "v2ray40.free4444.xyz",
+      "address": "v2ray4.v2rayfree2.xyz",
       "port": 443,
-      "id": "782ca179-1483-42b6-ae32-1a1a23d82763",
+      "id": "04e7a08b-0281-41ba-b088-a0c7e126e3bc",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
