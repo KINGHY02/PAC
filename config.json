@@ -49,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.245.170",
+            "address": "190.93.245.4",
             "port": 443,
             "users": [
               {
-                "id": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
+                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -67,12 +67,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "opfr1.v2rayfree1.xyz"
+          "serverName": "lg10.cfcdn1.xyz"
         },
         "wsSettings": {
-          "path": "/IYKLD53M",
+          "path": "/A2DJOPFT",
           "headers": {
-            "Host": "opfr1.v2rayfree1.xyz"
+            "Host": "lg10.cfcdn1.xyz"
           }
         }
       },
