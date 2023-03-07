@@ -49,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray5.v2rayfree2.xyz",
+            "address": "v2ray8.v2rayfree2.xyz",
             "port": 443,
             "users": [
               {
-                "id": "3dbf8df2-452d-49af-92de-a1789775de9f",
+                "id": "66270820-82b0-4bb3-8b79-ddc74ddb1366",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,7 +71,7 @@
           "allowInsecure": false
         },
         "wsSettings": {
-          "path": "/ray"
+          "path": "/6HPOMG"
         }
       },
       "mux": {
