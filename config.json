@@ -49,7 +49,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.38.88",
+            "address": "23.227.38.40",
             "port": 80,
             "users": [
               {
@@ -66,7 +66,7 @@
         "network": "ws",
         "wsSettings": {
           "headers": {
-            "Host": "fr.v2ray1.xyz"
+            "Host": "lg.cfcdn2.xyz"
           }
         }
       },
@@ -91,7 +91,7 @@
     }
   ],
   "routing": {
-    "domainStrategy": "IPIfNonMatch",
+    "domainStrategy": "AsIs",
     "domainMatcher": "linear",
     "rules": [
       {
