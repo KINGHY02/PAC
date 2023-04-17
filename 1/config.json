@@ -49,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kr1.v2ray13.xyz",
-            "port": 443,
+            "address": "23.227.38.100",
+            "port": 8880,
             "users": [
               {
-                "id": "fd102519-3342-4faa-8bdf-42252518068b",
+                "id": "627b1212-424d-420b-83e9-3c4c913e2619",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -64,13 +64,10 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": ""
-        },
         "wsSettings": {
-          "path": "/0HHFJP16"
+          "headers": {
+            "Host": "lg.v2ray18.xyz"
+          }
         }
       },
       "mux": {
