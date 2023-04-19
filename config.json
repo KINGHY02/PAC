@@ -45,43 +45,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "103.160.204.100",
+            "address": "212.102.53.79",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "shadowsocks",
             "port": 443,
-            "users": [
-              {
-                "id": "631e9a8e-68ec-4e8b-9ad8-632bbb3e51b0",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
+            "level": 1
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "1.freej1.xyz",
-          "fingerprint": ""
-        },
-        "wsSettings": {
-          "path": "/oujnws",
-          "headers": {
-            "Host": "1.freej1.xyz"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": false,
+        "concurrency": -1
       }
     },
     {
