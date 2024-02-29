@@ -40,14 +40,6 @@
           "fingerprint": "chrome" 
         }
       }
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "block",
-      "tag": "block"
     }
   ]
 }
