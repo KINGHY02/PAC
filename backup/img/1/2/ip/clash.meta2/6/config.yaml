@@ -15,7 +15,7 @@ dns:
 proxies:
   - name: dongtaiwang.com_0
     type: hysteria2
-    server: www.dtku50.xyz
+    server: www.dtku40.xyz
     port: 22334
     password: dongtaiwang.com
     alpn:
