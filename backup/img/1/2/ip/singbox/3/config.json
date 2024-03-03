@@ -12,11 +12,10 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ss-6120",
-      "server": "www2.dtku44.xyz", 
-      "server_port": 22335,
-      "method": "2022-blake3-aes-256-gcm", 
-      "password": "oats+7vdaSOb4NsxWwCBQll4qTwPu/dhpegiIGnqd9c=",
+      "tag": "shadowtls-7445",
+      "method": "2022-blake3-chacha20-poly1305", 
+      "password": "6qfEwR4QOrHq+k3csNdEZgMa+Y890g/eouGnVEtxb0c=",
+      "detour": "stl-6346",
       "multiplex": {
         "enabled": true,
         "protocol": "h2mux",
