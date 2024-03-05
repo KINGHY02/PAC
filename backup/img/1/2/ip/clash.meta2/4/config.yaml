@@ -14,9 +14,9 @@ dns:
       - 0.0.0.0/32
 proxies:
   - {"name":"dongtaiwang.com_1","type":"vless","server":"23.227.39.12","port":443,"uuid":"ebfdccb6-7416-4b6e-860d-98587344d500","tls":true,"servername":"lg1.freessr2.xyz","network":"ws","ws-opts":{"path":"/xyakws","headers":{"host":"lg1.freessr2.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"dongtaiwang.com_2","type":"vless","server":"23.227.39.23","port":443,"uuid":"ebfdccb6-7416-4b6e-860d-98587344d500","tls":true,"servername":"lg1.freessr2.xyz","network":"ws","ws-opts":{"path":"/xyakws","headers":{"host":"lg1.freessr2.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"dongtaiwang.com_3","type":"vless","server":"23.227.39.24","port":443,"uuid":"ebfdccb6-7416-4b6e-860d-98587344d500","tls":true,"servername":"lg1.freessr2.xyz","network":"ws","ws-opts":{"path":"/xyakws","headers":{"host":"lg1.freessr2.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"dongtaiwang.com_4","type":"vless","server":23.227.39.45","port":443,"uuid":"ebfdccb6-7416-4b6e-860d-98587344d500","tls":true,"servername":"lg1.freessr2.xyz","network":"ws","ws-opts":{"path":"/xyakws","headers":{"host":"lg1.freessr2.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"dongtaiwang.com_2","type":"vless","server":"yh6.freeh1.xyz","port":443,"uuid":"ebfdccb6-7416-4b6e-860d-98587344d500","tls":true,"servername":"lg1.freessr2.xyz","network":"ws","ws-opts":{"path":"/xyakws","headers":{"host":"lg1.freessr2.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"dongtaiwang.com_3","type":"vless","server":"yh5.freeh1.xyz","port":443,"uuid":"ebfdccb6-7416-4b6e-860d-98587344d500","tls":true,"servername":"lg1.freessr2.xyz","network":"ws","ws-opts":{"path":"/xyakws","headers":{"host":"lg1.freessr2.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"dongtaiwang.com_4","type":"vless","server":"yh3.freeh1.xyz","port":443,"uuid":"ebfdccb6-7416-4b6e-860d-98587344d500","tls":true,"servername":"lg1.freessr2.xyz","network":"ws","ws-opts":{"path":"/xyakws","headers":{"host":"lg1.freessr2.xyz"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -30,7 +30,8 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 3
+    sleep: false
     tolerance: 50
     proxies:
       - dongtaiwang.com_1
