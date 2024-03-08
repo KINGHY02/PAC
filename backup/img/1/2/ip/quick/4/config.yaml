@@ -14,16 +14,16 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip 
-    type: hysteria
+    type: hysteria2
     server: www2.dtku48.xyz
-    port: 22334
-    auth-str: dongtaiwang.com
+    port: 48726
+    password: dongtaiwang.com
     alpn:
       - h3
-    protocol: udp
+    sni: bing.com
+    skip-cert-verify: true
     up: "11 Mbps"
     down: "55 Mbps"
-    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
