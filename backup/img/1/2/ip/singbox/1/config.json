@@ -14,8 +14,8 @@
       "type": "shadowsocks",
       "tag": "ss-6120",
       "method": "2022-blake3-chacha20-poly1305", 
-      "password": "5IH4rBauUuOT4VpAshgMPMSQ3Tf+oJjDY/jEDbIel2Q=",
-      "detour": "stl-6243",
+      "password": "mtIQn1hVOMm/+Zp182hwzHVzcACgAqUr0y5pg9+SVZQ=",
+      "detour": "dongtaiwang.com",
       "multiplex": {
         "enabled": true,
         "protocol": "h2mux",
@@ -26,11 +26,11 @@
     },
     {
       "type": "shadowtls",
-      "tag": "stl-6243",
+      "tag": "dongtaiwang.com",
       "server": "172.83.156.157", 
-      "server_port": 44550,
+      "server_port": 33221,
       "version": 3, 
-      "password": "FHDLxKgzbcDCPmijble8uT1gddgBmOxA1XXeDgyqgGc=", 
+      "password": "BYKXLWNDdLk8GyZEYANQna70Ttlpij9Hgh0M+nPMZNc=", 
       "tls": {
         "enabled": true,
         "server_name": "nijigen-works.jp", 
