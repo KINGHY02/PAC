@@ -18,11 +18,11 @@ proxies:
     server: 62.204.54.81
     port: 33221
     cipher: 2022-blake3-chacha20-poly1305
-    password: "mtIQn1hVOMm/+Zp182hwzHVzcACgAqUr0y5pg9+SVZQ="
+    password: "cNoeQiREIlGx+U/pFoRG126lD9U1RT1zkXjei2UaT2w="
     plugin: shadow-tls
     plugin-opts:
       host: "nijigen-works.jp"
-      password: "BYKXLWNDdLk8GyZEYANQna70Ttlpij9Hgh0M+nPMZNc="
+      password: "lhWGKo/dJHvvMKzuhWX2v1GRIoUOuFb6wCkPLxR2uIk="
       version: 3
 proxy-groups:
   - name: 🚀 节点选择
