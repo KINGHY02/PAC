@@ -1,5 +1,5 @@
 {
-"server": "167.160.91.116:41189",
+"server": "167.160.91.117:14455",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -14,9 +14,9 @@
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
+"auth_str": "dongtaiwang.com",
 "alpn": "h3",
-"server_name": "www.amazon.cn",
+"server_name": "bing.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
