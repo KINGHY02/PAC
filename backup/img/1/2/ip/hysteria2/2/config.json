@@ -12,7 +12,7 @@
     "maxConnReceiveWindow": 33554432
   },
   "socks5": {
-    "listen": "127.0.0.1:5678"
+    "listen": "127.0.0.1:1080"
   },
   "transport": {
     "udp": {
