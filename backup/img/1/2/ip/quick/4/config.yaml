@@ -7,23 +7,23 @@ dns:
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0
-    type: hysteria2
     server: 51.159.77.153
-    port: 33390
+    port: 44559
+    type: tuic
+    uuid: 2f8f3873-9edf-4c4e-9888-b8a8b2d9d809
     password: dongtaiwang.com
-    alpn:
-      - h3
-    sni: bing.com
-    skip-cert-verify: true
-    up: "11 Mbps"
-    down: "55 Mbps"
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    udp-relay-mode: native
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -86,6 +86,5 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
-
 rules:
   - MATCH,🚀 节点选择
