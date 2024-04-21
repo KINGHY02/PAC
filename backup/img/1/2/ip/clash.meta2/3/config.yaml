@@ -13,17 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_1
-    type: ss
-    server: www2.dtku48.xyz
-    port: 33001
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "G0YFHkYjXjU0wE2eM/7YaFNYCvzKa28VEXjPUclhyrg="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "3KCE0wdmlihIDlOGJ2m3ga+Y4QJxls9PYCJL1vTimQw="
-      version: 3
+  - {"name":"dongtaiwang.com_1","type":"hysteria","server":"108.181.5.21","port":44550,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
