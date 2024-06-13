@@ -1,7 +1,7 @@
 {
   "listen": "127.0.0.1:1080",
-  "server": "64.110.25.14:44455",
-  "uuid": "e78c7ee5-2a7b-44fb-95e6-175783cf5a61",
+  "server": "www.dtku40.xyz:22008",
+  "uuid": "fea5ac7a-e761-4d87-bd0d-f2b578896a4d",
   "password": "dongtaiwang.com",
   "sni": "bing.com",
   "allow_insecure": true,
