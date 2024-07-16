@@ -1,16 +1,16 @@
 {
-"server": "www.dtku40.xyz:18091",
+"server": "104.192.224.138:60155",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 150,
+"timeout" : 250,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 150,
+"timeout": 250,
 "disable_udp": false
 },
 "obfs": "",
