@@ -14,10 +14,10 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0
-    server: 64.42.176.182
-    port: 61123
+    server: www.dtku40.xyz
+    port: 33098
     type: tuic
-    uuid: de954fbf-b042-4043-98f1-3cad99dbbf0b
+    uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
     password: dongtaiwang.com
     alpn: [h3]
     disable-sni: true
