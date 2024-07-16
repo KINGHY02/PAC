@@ -11,21 +11,33 @@
   ],
   "outbounds": [
     {
-      "type": "hysteria",
+      "type": "shadowsocks",
       "tag": "dongtaiwang.com",
-      "server": "www.dtku50.xyz", 
-      "server_port": 44001,
-      "up_mbps": 11, 
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
+      "method": "2022-blake3-aes-256-gcm", 
+      "password": "DouyRODDnDlrTw6T5t1EZ7B4rGv4VNODGtPZQJYKAS8=",
+      "detour": "stl-8857",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false
+      }
+    },
+    {
+      "type": "shadowtls",
+      "tag": "stl-8857",
+      "server": "46.29.163.85", 
+      "server_port": 443,
+      "version": 3, 
+      "password": "q+J8m+UV8aOloDabanmnGD6UunsCWVdg81hXyuROETc=", 
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "bing.com", 
-        "alpn": [
-          "h3"
-        ]
-
+        "server_name": "nijigen-works.jp", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome" 
+        }
       }
     }
   ] 
