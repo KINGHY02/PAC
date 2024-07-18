@@ -1,10 +1,22 @@
 {
-  "listen": "127.0.0.1:1080",
-  "server": "64.110.25.14:44455",
-  "uuid": "e78c7ee5-2a7b-44fb-95e6-175783cf5a61",
-  "password": "dongtaiwang.com",
-  "sni": "bing.com",
-  "allow_insecure": true,
-  "congestion_control": "bbr",
-  "log_level": "info"
+  "server": "64.110.25.14:50942,20000-30000",
+  "auth": "dongtaiwang.com",
+  "tls": {
+    "sni": "www.bing.com",
+    "insecure": true
+  },
+  "quic": {
+    "initStreamReceiveWindow": 16777216,
+    "maxStreamReceiveWindow": 16777216,
+    "initConnReceiveWindow": 33554432,
+    "maxConnReceiveWindow": 33554432
+  },
+  "socks5": {
+    "listen": "127.0.0.1:1080"
+  },
+  "transport": {
+    "udp": {
+      "hopInterval": "30s"
+    }
+  }
 }
