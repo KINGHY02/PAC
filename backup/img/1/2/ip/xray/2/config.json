@@ -50,8 +50,8 @@
       "protocol": "vmess",
       "settings": {
         "vnext": [
-          {
-            "address": "162.159.143.73",
+          { 
+            "address": "104.19.32.188",
             "port": 2082,
             "users": [
               {
