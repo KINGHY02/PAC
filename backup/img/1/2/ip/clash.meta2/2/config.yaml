@@ -14,16 +14,17 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0
-    type: ss
-    server: 51.159.77.153
-    port: 443
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "CuNN8dpAplS3SzR/LtmNqAPwfjeFwnun4SWMuh98ANo="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "oF1DMhFO6YuXAnEuq0qTaORV9y0Yy+MSf7GqelSXy3E="
-      version: 3
+    type: hysteria
+    server: 64.42.176.179
+    port: 15334
+    ports: 20000-30000
+    auth_str: dongtaiwang.com
+    alpn:
+      - h3
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: "11 Mbps"
+    down: "55 Mbps"
 
 proxy-groups:
   - name: 🚀 节点选择
