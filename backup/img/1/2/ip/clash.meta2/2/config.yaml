@@ -1,4 +1,3 @@
-
 secret: dongtaiwang.com
 mixed-port: 7890
 allow-lan: false
@@ -14,7 +13,18 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"hysteria","server":"64.42.176.182","port":41604,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
+  - name: dongtaiwang.com_0
+    type: ss
+    server: 51.159.77.153
+    port: 443
+    cipher: 2022-blake3-chacha20-poly1305
+    password: "CuNN8dpAplS3SzR/LtmNqAPwfjeFwnun4SWMuh98ANo="
+    plugin: shadow-tls
+    plugin-opts:
+      host: "nijigen-works.jp"
+      password: "oF1DMhFO6YuXAnEuq0qTaORV9y0Yy+MSf7GqelSXy3E="
+      version: 3
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
