@@ -1,3 +1,4 @@
+  
 secret: dongtaiwang.com
 mixed-port: 7890
 allow-lan: false
@@ -13,56 +14,59 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    server: www.dtku40.xyz
-    type: ss
-    port: 8080
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "o87ht2PySUzuu8ygXD9pJ5XjDtMHxepcsIbP5ZZ5PdI="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "GeRmhTDY9rDSNUuoVV/cGMVAEl/nblHQqM/gdHbRnVg="
-      version: 3
+  - name: dongtaiwang.com_1          
+    type: vless
+    server: 62.210.100.235                       
+    port: 23357                                
+    uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339   
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: www.yahoo.com                 
+    reality-opts: 
+      public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M    
+      short-id: '0b4badde'                    
+    client-fingerprint: chrome  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dongtaiwang.com_0
+      - dongtaiwang.com_1
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - dongtaiwang.com_0
+      - dongtaiwang.com_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - dongtaiwang.com_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - dongtaiwang.com_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dongtaiwang.com_0
+      - dongtaiwang.com_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - dongtaiwang.com_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,6 +89,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dongtaiwang.com_0
+      - dongtaiwang.com_1
 rules:
   - MATCH,🚀 节点选择
