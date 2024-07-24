@@ -47,30 +47,36 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.26.2.2",
-            "port": 2082,
+            "address": "64.110.25.10",
+            "port": 11111,
             "users": [
               {
-                "id": "86e926b9-d67a-4c8f-a35e-024631838a45",
+                "id": "0219c4d4-7eb9-43ef-b3a6-c4917097612e",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "github.com/Alvin9999",
-          "headers": {
-            "Host": "ip4-2.freessr2.xyz"
-          }
+        "network": "splithttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "1.3196772.xyz"
+        },
+        "splithttpSettings": {
+          "path": "/0219c4d4-7eb9-43ef-b3a6-c4917097612e",
+          "host": "1.3196772.xyz",
+          "maxUploadSize": 1000000,
+          "maxConcurrentUploads": 10
         }
       },
       "mux": {
@@ -99,6 +105,12 @@
       "proxy.example.com": "127.0.0.1"
     },
     "servers": [
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "1.3196772.xyz"
+        ]
+      },
       {
         "address": "1.1.1.1",
         "domains": [
