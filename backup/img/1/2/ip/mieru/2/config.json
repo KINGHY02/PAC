@@ -8,11 +8,11 @@
             },
             "servers": [
                 {
-                    "ipAddress": "166.1.18.56",
+                    "ipAddress": "www.dtku40.xyz",
                     "domainName": "",
                     "portBindings": [
                         {
-                            "port": 33388,
+                            "port": 55555,
                             "protocol": "TCP"
                         }
                     ]
