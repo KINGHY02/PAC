@@ -51,8 +51,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "64.110.25.10",
-            "port": 11111,
+            "address": "172.83.156.160",
+            "port": 234,
             "users": [
               {
                 "id": "0219c4d4-7eb9-43ef-b3a6-c4917097612e",
