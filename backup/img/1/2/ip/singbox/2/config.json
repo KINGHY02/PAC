@@ -13,24 +13,29 @@
     {
       "type": "shadowsocks",
       "tag": "dongtaiwang.com",
-      "method": "2022-blake3-aes-256-gcm", 
-      "password": "DouyRODDnDlrTw6T5t1EZ7B4rGv4VNODGtPZQJYKAS8=",
-      "detour": "stl-8857",
+      "method": "2022-blake3-chacha20-poly1305", 
+      "password": "vXZ0Sz5g2klA8FOPKn5f5V40Ib6g3dPCSdj9oFdhRog=",
+      "detour": "stl-7846",
       "multiplex": {
         "enabled": true,
         "protocol": "h2mux",
         "max_connections": 1,
         "min_streams": 4,
-        "padding": false
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 11,
+          "down_mbps": 55
+        }
       }
     },
     {
       "type": "shadowtls",
-      "tag": "stl-8857",
+      "tag": "stl-7846",
       "server": "46.29.163.85", 
       "server_port": 443,
       "version": 3, 
-      "password": "q+J8m+UV8aOloDabanmnGD6UunsCWVdg81hXyuROETc=", 
+      "password": "XT4lpMjVX1ywWq4cns8XIERdtMD5RxD9klX4jLJh6Gc=", 
       "tls": {
         "enabled": true,
         "server_name": "nijigen-works.jp", 
