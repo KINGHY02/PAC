@@ -11,22 +11,25 @@
   ],
   "outbounds": [
     {
-      "type": "hysteria",
+      "type": "vless",
       "tag": "dongtaiwang.com",
-      "server": "46.29.163.85", 
-      "server_port": 33556,
-      "up_mbps": 11, 
-      "down_mbps": 55,
-      "obfs": "dongtaiwang.com",
-      "auth_str": "dongtaiwang.com",
+      "uuid": "95d7d4e7-6cf3-4eaf-ac48-c1e5e1ceb733",
+      "packet_encoding": "xudp",
+      "server": "46.29.163.85",
+      "server_port": 18903,
+      "flow": "",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "bing.com", 
-        "alpn": [
-          "h3"
-        ]
-
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "eBUZp9nbJb2bEUuxTX1U3i1ITVR1mtlxfmxX43ehZUs",
+          "short_id": "9253ae7c164999fa"
+        }
       }
     }
   ] 
