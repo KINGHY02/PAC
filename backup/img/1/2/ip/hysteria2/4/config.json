@@ -1,6 +1,10 @@
 {
   "server": "www2.dtku44.xyz:37783,20000-30000",
   "auth": "dongtaiwang.com",
+  "bandwidth": {
+    "up": "11 mbps",
+    "down": "55 mbps"
+  },
   "tls": {
     "sni": "www.bing.com",
     "insecure": true
