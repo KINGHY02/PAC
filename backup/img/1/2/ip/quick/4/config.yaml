@@ -14,16 +14,16 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0
+    type: hysteria
     server: www.dtku40.xyz
-    type: ss
-    port: 8080
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "o87ht2PySUzuu8ygXD9pJ5XjDtMHxepcsIbP5ZZ5PdI="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "GeRmhTDY9rDSNUuoVV/cGMVAEl/nblHQqM/gdHbRnVg="
-      version: 3
+    port: 44559
+    auth_str: dongtaiwang.com
+    alpn:
+      - h3
+    sni: bing.com
+    skip-cert-verify: true
+    up: "11 Mbps"
+    down: "55 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
