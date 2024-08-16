@@ -14,18 +14,17 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0
-    type: hysteria
-    server: 62.210.243.131
-    port: 47780
-    ports: 10000-20000
-    auth_str: dongtaiwang.com
+    type: hysteria2
+    server: www2.dtku44.xyz
+    port: 37783
+    ports: 20000-30000
+    password: dongtaiwang.com
     alpn:
       - h3
-    sni: bing.com
+    sni: www.bing.com
     skip-cert-verify: true
     up: "11 Mbps"
     down: "55 Mbps"
-
 proxy-groups:
   - name: 🚀 节点选择
     type: select
