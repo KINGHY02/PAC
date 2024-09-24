@@ -13,11 +13,11 @@
     {
       "type": "vless",
       "tag": "dongtaiwang.com",
-      "uuid": "7c19bc47-278a-4673-bbf1-cd79d9342cd8",
-      "packet_encoding": "xudp",
       "server": "154.21.193.246",
       "server_port": 42874,
-      "flow": "xtls-rprx-vison",
+      "uuid": "7c19bc47-278a-4673-bbf1-cd79d9342cd8",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.yahoo.com",
@@ -25,11 +25,12 @@
           "enabled": true,
           "fingerprint": "chrome"
         },
-        "reality": {
+      "reality": {
           "enabled": true,
           "public_key": "o4ca2UXooQ8PUEepuwUYfHMiAD2WJ6nhOdAUlaMTbFs",
           "short_id": "9ccd1922"
         }
+
       }
     }
   ] 
