@@ -17,7 +17,7 @@
       "packet_encoding": "xudp",
       "server": "154.21.193.246",
       "server_port": 42874,
-      "flow": "",
+      "flow": "xtls-rprx-vison",
       "tls": {
         "enabled": true,
         "server_name": "www.yahoo.com",
