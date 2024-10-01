@@ -47,35 +47,35 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "166.1.221.22",
-            "port": 35933,
+            "address": "104.21.238.105",
+            "port": 8443,
             "users": [
               {
-                "id": "f3d3f306-87e8-42ce-90b4-8b333fcfa1b2",
+                "id": "87f9926a-546d-4185-aaba-3cc483d4730d",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "addons.mozilla.org",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE",
-          "shortId": "",
-          "spiderX": ""
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xray.5173605.xyz"
+        },
+        "wsSettings": {
+          "path": "87f9926a-546d-4185-aaba-3cc483d4730d-vm",
+          "headers": {
+            "Host": "xray.5173605.xyz"
+          }
         }
       },
       "mux": {
