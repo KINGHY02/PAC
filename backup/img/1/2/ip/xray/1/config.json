@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.238.35",
-            "port": 443,
+            "address": "104.21.238.104",
+            "port": 8880,
             "users": [
               {
-                "id": "7d66be51-98a3-472d-ad54-f7e0c96ead82",
+                "id": "57d2d9f2-f1d3-490c-acc5-108e8a8e17ca",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -66,15 +66,10 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ip1.9375943.xyz"
-        },
         "wsSettings": {
-          "path": "/7d66be51-98a3-472d-ad54-f7e0c96ead82",
+          "path": "github.com/Alvin9999",
           "headers": {
-            "Host": "ip1.9375943.xyz"
+            "Host": "ip2.9290254.xyz"
           }
         }
       },
