@@ -13,20 +13,21 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-- name: dongtaiwang.com_0         
-  type: vless
-  server: 64.42.176.180               
-  port: 44008
-  uuid: 7c90a89e-63b3-4d40-90c6-1b5f1aa14e38
-  network: tcp
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: 104.21.238.210             
+  port: 2095                                     
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8    
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nijigen-works.jp
-  reality-opts:
-    public-key: EdE36arx2ZEamAp3e60zvwSdcrCr4CU9HI5bFTvh9W0
-    short-id: 'fada62ff6504c59a'               
-  client-fingerprint: chrome 
+  tls: false
+  network: ws
+  servername: ip3.9290254.xyz                
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip3.9290254.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
