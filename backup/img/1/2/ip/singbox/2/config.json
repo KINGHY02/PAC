@@ -14,7 +14,7 @@
       "type": "vless",
       "tag": "dongtaiwang.com",
       "server": "154.21.193.246",
-      "server_port": 42874,
+      "server_port": 21882,
       "uuid": "7c19bc47-278a-4673-bbf1-cd79d9342cd8",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
