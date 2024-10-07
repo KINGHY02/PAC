@@ -14,8 +14,8 @@
       "type": "vless",
       "tag": "dongtaiwang.com",
       "server": "154.21.193.246",
-      "server_port": 21882,
-      "uuid": "7c19bc47-278a-4673-bbf1-cd79d9342cd8",
+      "server_port": 11111,
+      "uuid": "d473881b-6ea7-4e32-aeb1-4ca78e29b63a",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -27,8 +27,8 @@
         },
       "reality": {
           "enabled": true,
-          "public_key": "o4ca2UXooQ8PUEepuwUYfHMiAD2WJ6nhOdAUlaMTbFs",
-          "short_id": "9ccd1922"
+          "public_key": "COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y",
+          "short_id": "9fa47a63"
         }
 
       }
