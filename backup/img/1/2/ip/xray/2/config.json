@@ -52,30 +52,37 @@
         "vnext": [
           {
             "address": "166.1.221.22",
-            "port": 35933,
+            "port": 23456,
             "users": [
               {
-                "id": "f3d3f306-87e8-42ce-90b4-8b333fcfa1b2",
+                "id": "e0c7d644-2377-4d90-b012-215f89444c54",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "grpc",
         "security": "reality",
         "realitySettings": {
           "serverName": "addons.mozilla.org",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE",
+          "publicKey": "oKW5-LN1F4tbrSCdUH-ySdp4cgDlBiAn4_5GbqpPOgE",
           "shortId": "",
           "spiderX": ""
+        },
+        "grpcSettings": {
+          "serviceName": "grpc",
+          "multiMode": false,
+          "idle_timeout": 60,
+          "health_check_timeout": 20,
+          "permit_without_stream": false,
+          "initial_windows_size": 0
         }
       },
       "mux": {
