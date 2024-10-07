@@ -1,7 +1,7 @@
 {
   "listen": "127.0.0.1:1080",
-  "server": "64.42.176.178:44550",
-  "uuid": "b7634254-54c0-30e9-5f9b-e21f40c2cfac",
+  "server": "91.149.239.189:11111",
+  "uuid": "efc5b266-95fd-258e-a0bb-7a666cdf3ebb",
   "password": "dongtaiwang.com",
   "sni": "bing.com",
   "allow_insecure": true,
