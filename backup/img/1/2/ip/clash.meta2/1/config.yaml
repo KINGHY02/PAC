@@ -23,7 +23,7 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip3.9375943.xyz            
+  servername: ip5.9375943.xyz            
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
