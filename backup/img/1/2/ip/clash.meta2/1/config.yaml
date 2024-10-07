@@ -27,7 +27,7 @@ proxies:
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip3.9375943.xyz
+      Host: ip5.9375943.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
