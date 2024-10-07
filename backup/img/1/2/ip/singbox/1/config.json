@@ -16,7 +16,7 @@
             "tag": "dongtaiwang.com",
             "tls": {
                 "enabled": false,
-                "server_name": "sb1.9375943.xyz",
+                "server_name": "ip5.9375943.xyz",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
