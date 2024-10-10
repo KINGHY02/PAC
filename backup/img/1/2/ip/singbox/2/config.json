@@ -14,7 +14,7 @@
       "type": "hysteria",
       "tag": "dongtaiwang.com",
       "server": "154.21.193.246", 
-      "server_port": 33333,
+      "server_port": 100,
       "up_mbps": 11, 
       "down_mbps": 55,
       "obfs": "dongtaiwang.com",
