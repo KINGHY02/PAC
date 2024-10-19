@@ -47,35 +47,33 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "154.64.243.6",
-            "port": 400,
+            "address": "104.21.238.102",
+            "port": 443,
             "users": [
               {
-                "id": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+                "id": "2c15ec31-54f6-4cc7-aa9b-e906c6889bab",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.paypal.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI",
-          "shortId": "",
-          "spiderX": ""
+        "network": "httpupgrade",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xray2.6016725.xyz"
+        },
+        "httpupgradeSettings": {
+          "path": "github.com/Alvin9999",
+          "host": "xray2.6016725.xyz"
         }
       },
       "mux": {
