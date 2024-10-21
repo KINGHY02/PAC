@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "91.149.239.179",
+            "address": "104.21.238.103",
             "port": 8443,
             "users": [
               {
-                "id": "ede13fc6-7a89-4853-9004-81f2a72aa0b1",
+                "id": "01c07ba2-892a-4951-9e09-e84d99db4a43",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,11 +70,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "2.3196772.xyz"
+          "serverName": "split3.8084726.xyz",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
         },
         "splithttpSettings": {
-          "path": "/ede13fc6-7a89-4853-9004-81f2a72aa0b1",
-          "host": "2.3196772.xyz",
+          "path": "github.com/Alvin9999",
+          "host": "split3.8084726.xyz",
           "maxUploadSize": 1000000,
           "maxConcurrentUploads": 10
         }
