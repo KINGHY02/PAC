@@ -13,7 +13,7 @@
                     "domainName": "",
                     "portBindings": [
                         {
-                            "port": 54321,
+                            "port": 11111,
                             "protocol": "TCP"
                         }
                     ]
