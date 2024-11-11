@@ -15,7 +15,7 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
-    server: 195.154.200.40
+    server: 64.42.176.180
     port: 2345
     auth_str: dongtaiwang.com
     alpn:
