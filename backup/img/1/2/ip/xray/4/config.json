@@ -47,36 +47,33 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "172.83.156.160",
-            "port": 456,
+            "address": "104.21.238.105",
+            "port": 8443,
             "users": [
               {
-                "id": "ede13fc6-7a89-4853-9004-81f2a72aa0b1",
+                "id": "9201ffaa-6ca3-4f57-8b1f-266a2f390e43",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "splithttp",
+        "network": "httpupgrade",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "2.3196772.xyz"
+          "serverName": "http1.9290254.xyz"
         },
-        "splithttpSettings": {
-          "path": "/ede13fc6-7a89-4853-9004-81f2a72aa0b1",
-          "host": "2.3196772.xyz",
-          "maxUploadSize": 1000000,
-          "maxConcurrentUploads": 10
+        "httpupgradeSettings": {
+          "path": "github.com/Alvin9999",
+          "host": "http1.9290254.xyz"
         }
       },
       "mux": {
@@ -106,7 +103,7 @@
     },
     "servers": [
       {
-        "address": "1.1.1.1",
+        "address": "223.5.5.5",
         "domains": [
           "geosite:cn",
           "geosite:geolocation-cn"
@@ -121,8 +118,7 @@
     ]
   },
   "routing": {
-    "domainStrategy": "IPOnDemand",
-    "domainMatcher": "mph",
+    "domainStrategy": "AsIs",
     "rules": [
       {
         "type": "field",
@@ -130,6 +126,12 @@
           "api"
         ],
         "outboundTag": "api"
+      },
+      {
+        "type": "field",
+        "port": "443",
+        "network": "udp",
+        "outboundTag": "block"
       },
       {
         "type": "field",
