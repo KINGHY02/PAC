@@ -1,10 +1,10 @@
 {
   "listen": "127.0.0.1:1080",
-  "server": "167.160.91.117:10088",
-  "uuid": "86388d58-3866-c938-e6ee-1f0961bfb1e0",
-  "password": "dongtaiwang.com",
-  "sni": "bing.com",
-  "allow_insecure": true,
-  "congestion_control": "bbr",
-  "log_level": "info"
+    "server": "185.22.155.108:443",
+    "uuid": "623fb89b-01cd-4893-8fbf-5a2fc0df29a3",
+    "password": "dongtaiwang.com",
+    "sni": "juicity1.8084726.xyz",
+    "allow_insecure": true,
+    "congestion_control": "bbr",
+    "log_level": "info"
 }
