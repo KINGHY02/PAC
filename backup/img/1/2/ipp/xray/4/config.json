@@ -69,11 +69,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "http1.9290254.xyz"
+          "serverName": "http0001.9290254.xyz"
         },
         "httpupgradeSettings": {
           "path": "github.com/Alvin9999",
-          "host": "http1.9290254.xyz"
+          "host": "http0001.9290254.xyz"
         }
       },
       "mux": {
