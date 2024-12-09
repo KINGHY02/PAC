@@ -1,35 +1,40 @@
-name: Auto Update Config
+name: Auto Update Xray Config
 
 on:
   schedule:
     - cron: '5 * * * *'  # 每小时的第5分钟自动运行（UTC时间）
-  workflow_dispatch:      # 支持手动触发
+  workflow_dispatch:       # 支持手动触发
 
 jobs:
   update-config:
     runs-on: ubuntu-latest
 
     steps:
+      # 拉取仓库代码
       - name: Checkout Repository
-        uses: actions/checkout@v3  # 拉取仓库代码
+        uses: actions/checkout@v3
 
+      # 列出文件，确认路径
       - name: List Files (Debugging Step)
         run: |
-          ls -al backup/img/1/2/ip/xray/2/  # 确认文件存在
+          ls -al backup/img/1/2/ip/xray/2/
 
+      # 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
+      # 执行更新脚本
       - name: Run Update Script
         run: |
           python backup/img/1/2/ip/xray/2/update_config.py
 
+      # 提交并推送更改
       - name: Commit and Push Changes
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
           git add backup/img/1/2/ip/xray/2/config.json
-          git commit -m "Auto-update config.json: Increment domains"
+          git commit -m "Auto-update config.json: Increment domains" || echo "No changes to commit"
           git push
