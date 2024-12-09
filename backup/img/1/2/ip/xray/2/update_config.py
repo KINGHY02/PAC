@@ -1,26 +1,30 @@
 import re
 import os
+import json
 
-# 使用相对路径指向正确的目录
-config_file = os.path.join(os.path.dirname(__file__), "config.yaml")
+# 指定 config.json 文件路径
+config_file = os.path.join(os.path.dirname(__file__), "config.json")
 
-# 读取原始 config.yaml 文件
-with open(config_file, "r") as file:
+# 检查文件是否存在
+if not os.path.exists(config_file):
+    raise FileNotFoundError(f"{config_file} 不存在，请检查路径。")
+
+# 读取 config.json 文件
+with open(config_file, "r", encoding="utf-8") as file:
     content = file.read()
 
-# 正则表达式匹配 servername 和 host 中的数字，并将其加 1
+# 定义更新二级域名的函数
 def increment_domain(match):
     base = match.group(1)
     num = int(match.group(2)) + 1  # 将数字加 1
     suffix = match.group(3)
     return f"{base}{num}{suffix}"
 
-# 更新 servername 和 host
-updated_content = re.sub(r"(servername:\s+x)(\d+)(\.9375943\.xyz)", increment_domain, content)
-updated_content = re.sub(r"(Host:\s+x)(\d+)(\.9375943\.xyz)", increment_domain, updated_content)
+# 正则表达式匹配并替换域名中的数字
+updated_content = re.sub(r"(x)(\d+)(\.9375943\.xyz)", increment_domain, content)
 
-# 将更新后的内容写回文件
-with open(config_file, "w") as file:
+# 将更新后的内容写回 config.json
+with open(config_file, "w", encoding="utf-8") as file:
     file.write(updated_content)
 
-print("更新完成：所有节点的二级域名已加 1。")
+print("更新完成：所有二级域名已加 1。")
