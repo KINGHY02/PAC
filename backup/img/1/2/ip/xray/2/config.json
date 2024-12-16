@@ -52,10 +52,10 @@
         "vnext": [
           {
             "address": "104.18.114.2",
-            "port": 8080,
+            "port": 2086,
             "users": [
               {
-                "id": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+                "id": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -69,7 +69,7 @@
         "wsSettings": {
           "path": "github.com/Alvin9999",
           "headers": {
-            "Host": "x309.785660.xyz"
+            "Host": "x309.164748.xyz"
           }
         }
       },
