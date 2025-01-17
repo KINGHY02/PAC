@@ -13,19 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    type: ss
-    server: 108.181.24.77
-    port: 33449
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo="
-      version: 3
-      
-  - name: dongtaiwang.com_1                     
+  - name: dongtaiwang.com_0                     
     type: hysteria
     server: 108.181.24.77
     port: 35862
@@ -47,7 +35,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -55,8 +42,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -64,32 +49,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -113,7 +90,5 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-
 rules:
   - MATCH,🚀 节点选择
