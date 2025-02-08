@@ -14,16 +14,19 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    type: hysteria
-    server: 208.87.243.151
-    port: 17549
-    auth_str: dongtaiwang.com
-    alpn:
-      - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: "11 Mbps"
-    down: "55 Mbps"
+    type: vless
+    server: 195.154.33.15               
+    port: 62075                               
+    uuid: 1384ac29-65d3-488f-9b7c-e964b777f206
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: dash.cloudflare.com               
+    reality-opts: 
+      public-key: MLKLAxXqG39LBE6FFf1PEKkCM_L7suV8YelyLFvm4yg
+      short-id: ''                    
+    client-fingerprint: chrome
 proxy-groups:
   - name: 🚀 节点选择
     type: select
