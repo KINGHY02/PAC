@@ -1,3 +1,4 @@
+
 {
     "profiles": [
         {
@@ -8,11 +9,11 @@
             },
             "servers": [
                 {
-                    "ipAddress": "108.181.23.41",
+                    "ipAddress": "45.150.165.84",
                     "domainName": "",
                     "portBindings": [
                         {
-                            "port": 11111,
+                            "port": 20504,
                             "protocol": "TCP"
                         }
                     ]
