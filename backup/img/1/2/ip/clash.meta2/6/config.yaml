@@ -20,6 +20,7 @@ proxies:
     uuid: 074f49ce-e698-4eca-9a7f-25b480737c5d
     password: 074f49ce-e698-4eca-9a7f-25b480737c5d
     alpn: [h3]
+    sni: www.bing.com
     disable-sni: true
     reduce-rtt: true
     udp-relay-mode: native
