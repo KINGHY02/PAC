@@ -14,18 +14,17 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    type: hysteria
-    server: 108.181.24.77
-    port: 11512
-    ports: 20000-30000
-    auth-str: dongtaiwang.com
-    sni: apple.com
+    server: 108.181.5.131
+    port: 34008
+    type: tuic
+    uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+    password: dongtaiwang.com
+    alpn: [h3]
+    sni: bing.com
     skip-cert-verify: true
-    alpn:
-      - h3
-    protocol: udp
-    up: "11 Mbps"
-    down: "55 Mbps"
+    reduce-rtt: true
+    udp-relay-mode: native
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
