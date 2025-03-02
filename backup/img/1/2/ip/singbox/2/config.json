@@ -14,10 +14,10 @@
       "type": "hysteria",
       "tag": "dongtaiwang.com",
       "server": "176.32.35.90", 
-      "server_port": 10077,
+      "server_port": 11981,
       "up_mbps": 11, 
       "down_mbps": 55,
-      "obfs": "dongtaiwang.com",
+      "obfs": "",
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
