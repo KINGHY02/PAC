@@ -1,5 +1,5 @@
 {
-"server": "208.87.243.187:63721,47000-48000",
+"server": "208.87.243.187:40528",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -8,7 +8,7 @@
 "timeout": 300,
 "disable_udp": false
 },
-"obfs": "dongtaiwang.com",
+"obfs": "",
 "auth_str": "dongtaiwang.com",
 "alpn": "h3",
 "server_name": "apple.com",
