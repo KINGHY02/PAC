@@ -14,16 +14,19 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    type: hysteria
-    server: 208.87.243.151
-    port: 17549
-    auth_str: dongtaiwang.com
-    alpn:
-      - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: "11 Mbps"
-    down: "55 Mbps"
+    type: vless
+    server: 207.170.66.131
+    port: 53471                               
+    uuid: 93332c25-be6c-440a-9536-55a55de9b388
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: www.yahoo.com               
+    reality-opts: 
+      public-key: Q8tqbrM5oZEl53whhQ1zqblk7Ab-HKO4NZgeiSQDNA4
+      short-id: 'f2eb5a1e'                    
+    client-fingerprint: chrome
 proxy-groups:
   - name: 🚀 节点选择
     type: select
