@@ -12,14 +12,21 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
-proxies:                    
+proxies:
   - name: dongtaiwang.com_0                     
-    type: mieru
-    server: 62.210.6.186
-    port: 8067
-    transport: TCP
-    username: dongtaiwang.com
-    password: dongtaiwang.com
+    type: vless
+    server: 123.30.149.29
+    port: 14178                         
+    uuid: eb6187dc-bcf5-44ff-9f1f-b1e8d808d3fb
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: www.yahoo.com               
+    reality-opts: 
+      public-key: P0-ecDPStJRjL9Lw8uFG6UtoZVlxpsa2obZHHWpTAjY
+      short-id: 'fc1e183c'                    
+    client-fingerprint: chrome
 proxy-groups:
   - name: 🚀 节点选择
     type: select
