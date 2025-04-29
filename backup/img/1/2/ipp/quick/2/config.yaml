@@ -14,19 +14,17 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    type: vless
-    server: 123.30.149.29
-    port: 14178                         
-    uuid: eb6187dc-bcf5-44ff-9f1f-b1e8d808d3fb
-    network: tcp
-    udp: true
-    tls: true
-    flow: xtls-rprx-vision
-    servername: www.yahoo.com               
-    reality-opts: 
-      public-key: P0-ecDPStJRjL9Lw8uFG6UtoZVlxpsa2obZHHWpTAjY
-      short-id: 'fc1e183c'                    
-    client-fingerprint: chrome
+    type: hysteria
+    server: 123.30.149.21
+    port: 29597
+    auth-str: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
