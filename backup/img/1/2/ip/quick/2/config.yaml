@@ -15,17 +15,17 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     type: vless
-    server: 156.225.81.102            
-    port: 16113                         
-    uuid: 9b04495c-caf6-4ece-895f-402f12a270a5
+    server: 123.30.149.29
+    port: 14178                         
+    uuid: eb6187dc-bcf5-44ff-9f1f-b1e8d808d3fb
     network: tcp
     udp: true
     tls: true
     flow: xtls-rprx-vision
     servername: www.yahoo.com               
     reality-opts: 
-      public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
-      short-id: 'f3e00baf'                    
+      public-key: P0-ecDPStJRjL9Lw8uFG6UtoZVlxpsa2obZHHWpTAjY
+      short-id: 'fc1e183c'                    
     client-fingerprint: chrome
 proxy-groups:
   - name: 🚀 节点选择
