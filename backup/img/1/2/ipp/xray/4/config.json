@@ -1,4 +1,3 @@
-
 {
   "log": {
     "access": "",
@@ -53,10 +52,10 @@
         "vnext": [
           {
             "address": "108.181.3.68",
-            "port": 19873,
+            "port": 51499,
             "users": [
               {
-                "id": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
+                "id": "c643de0a-9678-4c18-9f55-58620425bac0",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,11 +70,11 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.yahoo.com",
+          "serverName": "aws.amazon.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
-          "shortId": "694212ed",
+          "publicKey": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww",
+          "shortId": "",
           "spiderX": ""
         }
       },
