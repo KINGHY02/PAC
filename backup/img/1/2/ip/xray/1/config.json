@@ -26,7 +26,7 @@
     },
     {
       "tag": "http",
-      "port": 10809,
+      "port": 1081,
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
@@ -52,10 +52,10 @@
         "vnext": [
           {
             "address": "198.40.52.26",
-            "port": 36311,
+            "port": 20783,
             "users": [
               {
-                "id": "91b61883-5689-45a2-938e-7ed1dada457c",
+                "id": "942e9337-6cd1-471e-ae3e-6a4ae0f38465",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,11 +70,11 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.yahoo.com",
+          "serverName": "aws.amazon.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "qXgDpdoO4FshU51gC8ayY3bgud_nQArKVLLCMCtvc3w",
-          "shortId": "15847f28",
+          "publicKey": "hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y",
+          "shortId": "",
           "spiderX": ""
         }
       },
