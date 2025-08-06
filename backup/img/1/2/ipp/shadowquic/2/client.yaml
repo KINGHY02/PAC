@@ -4,10 +4,10 @@ inbound:
 
 outbound:
   type: shadowquic
-  addr: "fan.880711.xyz:1443"
+  addr: "fan.683024.xyz:1443"
   username: "dongtaiwang.com"
   password: "dongtaiwang.com"
-  server-name: "www.yahoo"
+  server-name: "www.yahoo.com"
   alpn: ["h3"]
   initial-mtu: 1300
   congestion-control: bbr
