@@ -18,7 +18,7 @@
   "outbounds": [
     {
       "tag": "proxy", "protocol": "vless",
-      "settings": { "vnext": [{ "address": "fan.683024.xyz", "port": 42348, "users": [{ "id": "68ea0080-62e5-4b84-95a9-8d6bec2fe3fe", "email": "t@t.tt", "security": "auto", "encryption": "none" }] }] },
+      "settings": { "vnext": [{ "address": "fan1.193919.xyz", "port": 42348, "users": [{ "id": "68ea0080-62e5-4b84-95a9-8d6bec2fe3fe", "email": "t@t.tt", "security": "auto", "encryption": "none" }] }] },
       "streamSettings": {
         "network": "xhttp", "security": "reality",
         "xhttpSettings": { "path": "68ea0080-62e5-4b84-95a9-8d6bec2fe3fe-xh" },
