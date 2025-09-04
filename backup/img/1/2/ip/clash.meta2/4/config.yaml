@@ -14,17 +14,21 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    type: hysteria
-    server: 108.181.24.77
-    port: 37872
-    auth-str: dongtaiwang.com
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-    protocol: udp
-    up: "11 Mbps"
-    down: "55 Mbps"
+    type: vless
+    server: 2001:bc8:32d7:312::4
+    port: 10033
+    uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
+    network: grpc
+    udp: true
+    tls: true
+    flow: 
+    servername: nijigen-works.jp
+    reality-opts:
+      public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
+      short-id: dfdfb0e2e2d400c4
+    grpc-opts:
+      grpc-service-name: "FhwHiFzK"
+    client-fingerprint: chrome 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,9 +37,10 @@ proxy-groups:
       - DIRECT
       - dongtaiwang.com_0
   - name: ♻️ 自动选择
-    type: fallback              
-    url: "https://www.gstatic.com/generate_204"
-    interval: 5
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
     proxies:
       - dongtaiwang.com_0
   - name: 🌍 国外媒体
