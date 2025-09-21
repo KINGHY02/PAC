@@ -15,10 +15,10 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
-    server: 51.159.111.32
-    port: 23880
+    server: 62.210.10.113
+    port: 13767
     auth-str: dongtaiwang.com
-    sni: bing.com
+    sni: apple.com
     skip-cert-verify: true
     alpn:
       - h3
@@ -33,9 +33,10 @@ proxy-groups:
       - DIRECT
       - dongtaiwang.com_0
   - name: ♻️ 自动选择
-    type: fallback              
-    url: "https://www.gstatic.com/generate_204"
-    interval: 5
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
     proxies:
       - dongtaiwang.com_0
   - name: 🌍 国外媒体
