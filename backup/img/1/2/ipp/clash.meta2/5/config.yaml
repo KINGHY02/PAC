@@ -13,7 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0                     
+  - name: 法国-KiNG⚡                     
     server: 2001:bc8:1203:106::100
     port: 55111
     type: tuic
@@ -25,7 +25,7 @@ proxies:
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
-  - name: dongtaiwang.com_1                     
+  - name: 法国-KiNG⚡                       
     server: 2001:bc8:1203:106::101
     port: 55111
     type: tuic
@@ -37,7 +37,7 @@ proxies:
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
-  - name: dongtaiwang.com_2                     
+  - name: 法国-KiNG⚡                       
     server: 2001:bc8:1203:106::102
     port: 55111
     type: tuic
@@ -49,7 +49,7 @@ proxies:
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
-  - name: dongtaiwang.com_3                     
+  - name: 法国-KiNG⚡                       
     server: 2001:bc8:1203:106::103
     port: 55111
     type: tuic
@@ -61,7 +61,7 @@ proxies:
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
-  - name: dongtaiwang.com_4                     
+  - name: 法国-KiNG⚡                       
     server: 2001:bc8:1203:106::104
     port: 55111
     type: tuic
