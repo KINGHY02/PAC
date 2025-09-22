@@ -13,7 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0                     
+  - name: FR-KiNG🤴                     
     type: hysteria
     server: 208.87.243.151
     port: 10023
